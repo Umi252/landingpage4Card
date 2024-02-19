@@ -10,7 +10,13 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+const header = document.getElementById('header');
 
+function rotateHeader() {
+    header.style.animation = 'rotateAnimation 58s infinite linear';
+}
+
+rotateHeader();
 
 
 
